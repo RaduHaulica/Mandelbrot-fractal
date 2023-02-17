@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Resource Files\media">
+      <UniqueIdentifier>{0002444e-66d3-4be6-a67a-b914bfee7386}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -28,5 +31,34 @@
     <ClInclude Include="utils.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="media\mandelbrot full.png">
+      <Filter>Resource Files\media</Filter>
+    </Image>
+    <Image Include="media\mandelbrot thread difference.png">
+      <Filter>Resource Files\media</Filter>
+    </Image>
+    <Image Include="media\mandelbrot zoom 1.png">
+      <Filter>Resource Files\media</Filter>
+    </Image>
+    <Image Include="media\mandelbrot zoom 2.png">
+      <Filter>Resource Files\media</Filter>
+    </Image>
+    <Image Include="media\mandelbrot zoom 3.png">
+      <Filter>Resource Files\media</Filter>
+    </Image>
+    <Image Include="media\mandelbrot zoom 4.png">
+      <Filter>Resource Files\media</Filter>
+    </Image>
+    <Image Include="media\mandelbrot zoom 5.png">
+      <Filter>Resource Files\media</Filter>
+    </Image>
+    <Image Include="media\mandelbrot.gif">
+      <Filter>Resource Files\media</Filter>
+    </Image>
+    <Image Include="media\mandelbrot2.gif">
+      <Filter>Resource Files\media</Filter>
+    </Image>
   </ItemGroup>
 </Project>
