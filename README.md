@@ -4,9 +4,15 @@
 
 Visual representation of the [Mandelbrot fractal(wikipedia)](https://en.wikipedia.org/wiki/Mandelbrot_set), one of the most widely known pieces of mathematical art. It is the go-to example of an incredibly complex structure resulting from applying very simple rules.
 
-I also tried my hand at multi threaded computation to see the impact a little optimization can have on CPU intensive jobs.
+It's the set of complex numbers that remains bounded when successively applying a specific formula.
 
-![Mandelbrot multithreaded vs single threaded](https://github.com/RaduHaulica/Mandelbrot-fractal/blob/6194ed520ce3a564fa82982ae13446a65d5ce8c0/Mandelbrot/media/mandelbrot2.gif)
+I also implemented the ability to zoom in on a selected area of the fractal, in order to better showcase its complexity.
+
+![Mandelbrot zoom](https://github.com/RaduHaulica/Mandelbrot-fractal/blob/1c66d38abdd0e3917d1ec903b86c1886b47105a1/Mandelbrot/media/mandelbrot%20zoom.gif)
+
+I also tried my hand at multi threaded computation to see the impact a little optimization can have on CPU intensive jobs (spoiler: it does wonders).
+
+![Mandelbrot multithreaded vs single threaded](https://github.com/RaduHaulica/Mandelbrot-fractal/blob/1c66d38abdd0e3917d1ec903b86c1886b47105a1/Mandelbrot/media/mandelbrot%20thread%20difference.png)
 
 ## How to use
 
